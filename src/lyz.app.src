@@ -1,0 +1,12 @@
+{application, lyz,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { lyz_app, []}},
+  {env, []}
+ ]}.
